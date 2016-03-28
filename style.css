@@ -208,7 +208,10 @@ input[type="button"],
 .mobile-navigation,
 .nav-toggle { display: none; }
 
-.navigation { background: #1d1d1d; }
+.navigation { 
+	/*background: #1d1d1d; */
+	background-image: url("images/bg-menu.jpg");
+}
 
 .main-menu { text-align: center; }
 
