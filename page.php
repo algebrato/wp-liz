@@ -8,17 +8,6 @@
 			
 			<div class="post-container">
 		
-			<?php if ( has_post_thumbnail() ) : ?>
-			
-				<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail_size' ); $thumb_url = $thumb['0']; ?>
-		
-				<div class="featured-media">
-		
-					<?php the_post_thumbnail('post-image'); ?>
-					
-				</div> <!-- /featured-media -->
-					
-			<?php endif; ?>
 			
 			<div class="post-header">
 												

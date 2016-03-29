@@ -7,29 +7,6 @@
 		<div id="post-<?php the_ID(); ?>" <?php post_class('single single-post'); ?>>
 			
 			<div class="post-container">
-				
-				<?php $post_format = get_post_format(); ?>
-				
-				<?php if ( $post_format == 'gallery' ) : ?>
-				
-					<div class="featured-media">	
-		
-						<?php hitchcock_flexslider('post-image'); ?>
-						
-						<div class="clear"></div>
-						
-					</div> <!-- /featured-media -->
-					
-				<?php elseif ( has_post_thumbnail() ) : ?>
-						
-					<div class="featured-media">
-			
-						<?php the_post_thumbnail('post-image'); ?>
-						
-					</div> <!-- /featured-media -->
-						
-				<?php endif; ?>
-				
 				<div class="post-header">
 					
 					<p class="post-date"><?php the_time(get_option('date_format')); ?></p>
