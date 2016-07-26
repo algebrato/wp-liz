@@ -1,6 +1,6 @@
 <div class="credits section-inner">
 			
-	<p>&copy; <?php echo date('Y'); ?> <a href="http://linuxfree.ddns.net/lisa">LISA BUSTERNA ATELIER D'ARTE</a></p>
+	<p style="color: black;">&copy; <?php echo date('Y'); ?> <a style="color: black;" href="http://linuxfree.ddns.net/lisa">LISA BUSTERNA ATELIER D'ARTE</a></p>
 	<div>
 		<center>
 			<div class="social-box">

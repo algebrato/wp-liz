@@ -90,9 +90,10 @@ html { font-size: 16px; }
 body {
 	margin: 0;
 	padding: 0;
-	background: #1d1d1d;
+	/*background: #1d1d1d;*/
+	background: #FFFFFF;
 	border: none;
-	color: #1d1d1d;
+	color: #FFFFFF;
 	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', sans-serif;
 	-webkit-text-size-adjust: 100%;
 }
@@ -197,6 +198,7 @@ input[type="button"],
 	 -ms-transition: all 0.3s ease-in-out;
 	 -o-transition: all 0.3s ease-in-out;
 	 transition: all 0.3s ease-in-out;
+	 border-radius: 6.75%;
 }
 
 
@@ -210,7 +212,7 @@ input[type="button"],
 
 .navigation { 
 	/*background: #1d1d1d; */
-	background-image: url("images/bg-menu.jpg");
+	background-image: url("http://lisabusterna.altervista.org/wp-content/uploads/2016/03/bg-menu.jpg");
 }
 
 .main-menu { text-align: center; }
@@ -570,12 +572,12 @@ input[type="button"],
 	z-index: 2;
 	top: 0;
 	background: #1d1d1d;
-	background: -moz-linear-gradient(top, rgba(29,29,29,0.2) 0%, rgba(29,29,29,1) 100%);
+	background: -moz-linear-gradient(top, rgba(29,29,29,0.2) 0%, rgba(255,255,255,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(29,29,29,0.2)), color-stop(100%,rgba(29,29,29,1)));
-	background: -webkit-linear-gradient(top, rgba(29,29,29,0.2) 0%,rgba(29,29,29,1) 100%);
-	background: -o-linear-gradient(top, rgba(29,29,29,0.2) 0%,rgba(29,29,29,1) 100%);
-	background: -ms-linear-gradient(top, rgba(29,29,29,0.2) 0%,rgba(29,29,29,1) 100%);
-	background: linear-gradient(to bottom, rgba(29,29,29,0.2) 0%,rgba(29,29,29,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(29,29,29,0.2) 0%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(29,29,29,0.2) 0%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(29,29,29,0.2) 0%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(29,29,29,0.2) 0%,rgba(255,255,255,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331d1d1d', endColorstr='#1d1d1d',GradientType=0 );
 }
 
@@ -596,10 +598,13 @@ input[type="button"],
 	position: relative;
 	background-size: cover;
 	background-position: center;
+	border-radius: 7%;
 }
 
 .posts .post + .post { margin-left: 3.95%; }
-.posts .post:nth-child(3n+1) { margin-left: 0; }
+.posts .post:nth-child(3n+1) { 
+	margin-left: 0; 
+}
 
 .post-overlay {
 	background: #fff;
@@ -672,7 +677,7 @@ input[type="button"],
 /* -------------------------------------------------------------------------------- */
 
 
-.post-container { background: #fff; }
+.post-container { background: #131313; }
 
 
 /* Featured Media  ----------------------------------------- */
@@ -944,7 +949,7 @@ input[type="button"],
 
 .post-content { 
 	font-family: serif. 'Droid Serif', Georgia, serif; 
-	color: #333;
+	color: #d9d9d9;
 	position: relative;
 }
 
@@ -1366,6 +1371,7 @@ input[type="submit"]:active {
 
 
 .comments-container { 
+	display: none;
 	background: #fafafa; 
 	border-top: 1px solid #ddd;
 	margin-top: 20px;
@@ -1389,7 +1395,7 @@ input[type="submit"]:active {
 
 .comments-title,
 .comment-reply-title { 
-	display: block;
+	display: none;
 	margin: 0 auto 54px auto;
 	text-align: center;
 	position: relative;
