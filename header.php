@@ -14,7 +14,7 @@
 	
 	</head>
 	
-	<body <?php body_class(); ?>>
+	<body <?php body_class(); ?> style="position: relative; margin-top: 0px;"  >
 		
 		<div class="navigation">
 			
