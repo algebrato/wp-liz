@@ -41,5 +41,8 @@
 	<?php hitchcock_archive_navigation(); ?>
 		
 </div> <!-- /content -->
-	              	        
+
+
+<?php require("news.php"); ?>
+
 <?php get_footer(); ?>
