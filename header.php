@@ -10,14 +10,10 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> 
-	    	<!-- bjqs.css contains the *essential* css needed for the slider to work -->
-    		<link rel="stylesheet" href="bjqs.css">
 
 		<!-- some pretty fonts for this demo page - not required for the slider -->
     		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'> 
 
-		<!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
-		<link rel="stylesheet" href="demo.css">
 
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script src="http://linuxfree.ddns.net/lcm-test/wp-content/themes/wp-liz/bjs/js/bjqs-1.3.min.js"></script>
