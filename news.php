@@ -708,8 +708,8 @@
 <center>	
 	<div id="banner-fade">
 		<ul class="bjqs">
-          	<li><a href="pennelli-luminosi"><img src="http://lisabusterna.altervista.org/wp-content/uploads/photo-gallery/Estate_dolcissima-rid.jpg" title="Img 1"></a></li>
-		<li><a href="pennelli-luminosi"><img src="http://lisabusterna.altervista.org/wp-content/uploads/photo-gallery/sissi_mi_guarda-ridotto.jpg" title="Img 2"></a></li>
+          	<li><a href="pennelli-luminosi"><img src="http://lisabusterna.altervista.org/wp-content/uploads/photo-gallery/Estate_dolcissima-rid.jpg" title="Estate Dolcissima"></a></li>
+		<li><a href="pennelli-luminosi"><img src="http://lisabusterna.altervista.org/wp-content/uploads/photo-gallery/sissi_mi_guarda-ridotto.jpg" title="Sissi Mi Guarda"></a></li>
         	</ul>
 	</div>
 	<script>

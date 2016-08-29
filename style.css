@@ -219,7 +219,7 @@ input[type="button"],
 
 .main-menu li { position: relative; }
 
-.main-menu > li { display: inline-block; }
+.main-menu > li { display: inline-block; font-weight: bold; }
 
 .main-menu > li + li { margin-left: 40px; }
 
